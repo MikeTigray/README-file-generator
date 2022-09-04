@@ -14,41 +14,41 @@ inquirer
       message: "What license is your application using?",
       choices: ["Apache", "Boost", "BSD", "GNU LGPL v3", "None of the above"],
     },
-    // {
-    //   type: "input",
-    //   name: "description",
-    //   message: "Describe your application",
-    // },
-    // {
-    //   type: "input",
-    //   name: "installation",
-    //   message: "Describe your application's installation process",
-    // },
-    // {
-    //   type: "input",
-    //   name: "usage",
-    //   message: "Outline its usage information.",
-    // },
-    // {
-    //   type: "input",
-    //   name: "contribution",
-    //   message: "Outline the contribution guidelines.",
-    // },
-    // {
-    //   type: "input",
-    //   name: "testing",
-    //   message: "Detail testing information.",
-    // },
-    // {
-    //   type: "input",
-    //   name: "github",
-    //   message: "What is your gitHub username?",
-    // },
-    // {
-    //   type: "input",
-    //   name: "email",
-    //   message: "What is your email address?",
-    // },
+    {
+      type: "input",
+      name: "description",
+      message: "Describe your application",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "Describe your application's installation process",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "Outline its usage information.",
+    },
+    {
+      type: "input",
+      name: "contribution",
+      message: "Outline the contribution guidelines.",
+    },
+    {
+      type: "input",
+      name: "testing",
+      message: "Detail testing information.",
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "What is your gitHub username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
+    },
   ])
   .then((answers) => {
     fs.writeFile("generatedREADME.md", generateReadme(answers), (err) =>
@@ -173,17 +173,13 @@ const generateReadme = ({
 
   ${notice}
 
-  This application is covered under ${license}.
-
   ## <a id= "questions"> Questions </a>
 
-  For any additional questions, you can contact me:
+  For any additional questions, you can email me at:
 
   [${email}](https://${email})
 
   You can find my GitHub at:
 
-  [${github}](https://${github})`;
+  [${github}](https://${github}@github.com)`;
 };
-// const licensing = () => {};
-// licensing();

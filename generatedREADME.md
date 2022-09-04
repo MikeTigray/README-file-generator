@@ -1,10 +1,10 @@
-# ss 
+# Game of thrones [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ---
 
   ## Description
 
-  undefined
+  It allows players to mimic Got characters and defeat enemy tribes
 
   ## Table of contents
 
@@ -22,32 +22,44 @@
 
   ## <a id="installation">Installation </a>
 
-  undefined
+  load index.html file
 
   ## <a id="usage"> Usage </a>
 
-  undefined
+  For die hard Got fans
 
   ## <a id="contributions"> Contributions </a>
 
-  undefined
+  node.js -Eyuel Mulugeta
 
   ## <a id="testing">Testing</a>
 
-  undefined
+  N/A
 
   ## <a id="license">License information</a>
 
-  
+  - Apache Royale
+      Copyright 2020 The Apache Software Foundation
+    
+    This product includes software developed at
+    The Apache Software Foundation (http://www.apache.org/).
+    
+    The Initial Developer of some parts of the framework, which are copied from, derived from, or
+    inspired by Adobe Flex (via Apache Flex), is Adobe Systems Incorporated (http://www.adobe.com/).
+    Copyright 2003 - 2012 Adobe Systems Incorporated. All Rights Reserved.
+    
+    The Initial Developer of the examples/mxroyale/tourdeflexmodules,
+    is Adobe Systems Incorporated (http://www.adobe.com/).
+    Copyright 2009 - 2013 Adobe Systems Incorporated. All Rights Reserved.
 
-  This application is covered under None of the above.
+  
 
   ## <a id= "questions"> Questions </a>
 
-  For any additional questions, you can contact me:
+  For any additional questions, you can email me at:
 
-  [undefined](https://undefined)
+  [miketesfay23@gmail.com](https://miketesfay23@gmail.com)
 
   You can find my GitHub at:
 
-  [undefined](https://undefined)
+  [MikeTigray](https://MikeTigray@github.com)
